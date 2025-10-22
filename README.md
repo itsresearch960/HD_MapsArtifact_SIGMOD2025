@@ -51,7 +51,7 @@ conda install -c conda-forge pandas=2.3.1 numpy=2.3.2 osmnx=2.0.6 networkx=3.5 g
 
 ### Reproduction Steps
 
-Follow the sequence below to fully reproduce the results.
+Code details are available in notebooks as comments. Follow the sequence below to fully reproduce the results.
 
 1) **Run Preprocessing Notebooks.**  
 Execute `Dataset_Preprocessing_for_UWP.ipynb` and `Dataset_Preprocessing_for_Popularity.ipynb`. These generate the UWP tensor, the Popularity tensor, and the map-segment vector required for downstream experiments. **Important:** set the dataset directory name correctly based on the dataset in use (`tdrive` or `San_Francisco`).
